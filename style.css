@@ -1,0 +1,116 @@
+
+body {
+    background-color: rgb(185, 255, 195);
+    margin: 0px;
+}
+
+header {
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.521);
+    background: linear-gradient(180deg, rgb(89, 209, 89), rgb(8, 19, 5));
+}
+
+h1.principal {
+    text-align: center;
+
+    margin-block: 0px;
+    padding: 20px;
+    color: white;
+    text-shadow: 3px 3px 4px black;
+}
+
+p.apresentação {
+    text-align: center;
+    margin-top: 0;
+
+    margin: 0;
+    font-weight: bold;
+    color: white;
+}
+
+ul.navigation {
+    margin-block: 0px;
+    padding: 10px;
+
+    display: block;
+    font-weight: bolder;
+    font-size: 1em;
+    text-shadow: 0px 1px 8px black;
+}
+
+li.nav {
+    display: inline;
+    list-style: none;
+
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+    margin-right: 8px;
+}
+
+nav > ul > li > a:hover {
+    transition: 1s;
+    background-color: greenyellow;
+    border-radius: 8px;
+    padding: 4px;
+    color: black;
+}
+
+section {
+    background-color: white;
+    margin: 0 10% 0 10%;
+}
+
+.img {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linktexto {
+    text-decoration: none;
+    color: rgb(5, 51, 5);
+    font-weight: bold;
+    background-color: greenyellow;
+}
+
+h1.title1 {
+    font-size: 2em;
+    color: rgb(9, 94, 9);
+}
+
+h2.title2 {
+    background: linear-gradient(90deg, rgb(151, 241, 151),white);
+}
+
+footer {
+    margin: 0 10% 0 10%;
+    background-color: white;
+    padding: 10px;
+}
+
+footer > div {
+    border-radius: 10px;
+}
+
+footer > div > h1 {
+    color: white;
+    background-color: green;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+    margin: 0;
+}
+
+footer > div > p {
+    background-color: rgb(145, 201, 108);
+    margin: 0;
+    padding: 10px 5px 10px 5px;
+}
+
+footer > div > ul {
+    background-color: rgb(145, 201, 108);;
+    margin: 0;
+    border-radius: 0 0 8px 8px;
+}
